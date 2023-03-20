@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2{
+font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #333131;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f1f1f1;
+    
+   
+}
+.navbar a:hover {
+
+    color: #e9dddd;
+    transition: 0.3s;
+
+   
+}
+h1{
+    text-align: center;
+}
+.bloc p{
+    /* display: flex;
+    justify-content: center; */
+ padding: 20px;
+ max-width: 700px;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+   
+}
+
+.liste li{
+    list-style-type: none;
+}
+
+.liste li 
+{
+display: flex;
+justify-content: center;
+font-weight: bold;
+font-family: 'Montserrat',
+    sans-serif;
+    margin-top: 5px;
+
+}
+
+.reservation-billets{
+   margin-top: 50px;
+    text-align: center;
+   /* display: flex;
+   justify-content: center; */
+}
+
+.reservation-billets .liens{
+    text-decoration: none;
+}
+
+
+.reservation-billets p{
+    font-size: 25px;
+   
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+.reservation-billets span{
+    font-size: 25px;
+   font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+}
+
+
